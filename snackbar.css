@@ -1,0 +1,58 @@
+.snackbar {
+    height:45rem;
+    width: 100%;
+    padding: 2rem;
+    background-color:transparent;
+    font-family: "Hind", sans-serif;
+  }
+  .snackbar-heading{
+    font-size: 3rem;
+    color:black;
+  }
+  .snackbar-para{
+    letter-spacing: 2px;
+    font-size: 1.5rem;
+    padding-right: 2rem;
+    line-height: 35px;
+    color:rgba(85, 85, 238, 0.678) ;
+  }
+  .sample{   font-size: 2rem;
+    margin-top: 2rem;
+    color: black;
+  }
+  .sample-para{
+    padding-top: 1rem;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    padding-right: 2rem;
+    color:rgba(85, 85, 238, 0.678) ;
+  }
+ button{
+    width: 200px;
+    height: 30px;
+    background-color:chocolate;
+ }
+  .snackbar-container
+  {
+    height: 15rem;
+    width: 90%;
+    margin-top: 2rem;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 3px solid rgba(0, 0, 255, 0.308);
+  }
+#snackbar {
+    display: none;
+    position: fixed;
+    top: 90px;
+    left: 90%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 16px;
+    border-radius: 8px;
+    font-size: 16px;
+}

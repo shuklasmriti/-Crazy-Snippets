@@ -1,0 +1,52 @@
+.text-utility{
+    height: 40rem;
+    width: 100%;
+    padding: 2rem;
+    background-color:transparent;
+    font-family: "Hind", sans-serif;
+}
+.text-heading{
+font-size: 3rem;
+    color:black;
+}
+.text-para{
+    letter-spacing: 2px;
+    font-size: 1.5rem;
+    padding-right: 2rem;
+    line-height: 35px;
+    color:rgba(85, 85, 238, 0.678) ;
+}
+
+.sample{
+    font-size: 2rem;
+    margin-top: 2rem;
+    color: black;
+}
+.sample-para{
+    padding-top: 1rem;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    padding-right: 2rem;
+    color:rgba(85, 85, 238, 0.678) ;
+}
+.text-container{
+    height: 15rem;
+    width: 90%;
+    margin-top: 2rem;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 3px solid rgba(0, 0, 255, 0.308);
+
+}
+.text-cont{
+    
+    position: relative;
+}
+
+
+
+.text-small{
+   color: blue;
+}

@@ -1,0 +1,83 @@
+/* The Modal (background) */
+.modals{
+    height: 40rem;
+    width: 100%;
+    padding: 2rem;
+    background-color:transparent;
+    font-family: "Hind", sans-serif;
+}
+.modal-heading{
+font-size: 3rem;
+    color:black;
+}
+.modal-para{
+    letter-spacing: 2px;
+    font-size: 1.5rem;
+    padding-right: 2rem;
+    line-height: 35px;
+    color:rgba(85, 85, 238, 0.678) ;
+}
+
+.sample{
+    font-size: 2rem;
+    margin-top: 2rem;
+    color: black;
+}
+.sample-para{
+    padding-top: 1rem;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    padding-right: 2rem;
+    color:rgba(85, 85, 238, 0.678) ;
+}
+.modal-container{
+    height: 15rem;
+    width: 90%;
+    margin-top: 2rem;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 3px solid rgba(0, 0, 255, 0.308);
+
+}
+.modal {
+    display: none;
+    position: fixed;
+    /* top: 200px; */
+    /* left:90; */
+    width: 50%;
+    height: 20%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.modal-container{
+    height: 10rem;
+    width: 40%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 3px solid rgba(0, 0, 255, 0.308);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
