@@ -1,0 +1,113 @@
+#alert {
+    height: 87rem;
+    width: 100%;
+    padding: 2rem;
+    background-color:transparent;
+    font-family: "Hind", sans-serif;
+  }
+  .alert-heading{
+    font-size: 3rem;
+    color:black;
+  }
+  .component-para{
+    letter-spacing: 2px;
+    font-size: 1.5rem;
+    padding-right: 2rem;
+    line-height: 35px;
+    color:rgba(85, 85, 238, 0.678) ;
+  }
+  .sample-component-heading{
+    font-size: 2rem;
+    margin-top: 2rem;
+    color: black;
+  }
+  .sample-component-para{
+    padding-top: 1rem;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    padding-right: 2rem;
+    color:rgba(85, 85, 238, 0.678) ;
+  }
+  .alert-sample-cont {
+    height: 30rem;
+    width: 90%;
+    margin-top: 2rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid black;
+  }
+  .alert-box {
+    width: 95%;
+    height: 3.5rem;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    padding: 0 1rem;
+  }
+  .alert-primary {
+    background-color:yellow;
+    color:black;
+    margin-top: 2rem;
+  }
+  .alert-primary a {
+    text-decoration: none;
+  }
+  .alert-secondary {
+    background-color: chocolate;
+    color:black;
+    margin-top: 2rem;
+  }
+  .alert-sucess {
+    background-color:green;
+    color: black;
+    margin-top: 2rem;
+  }
+  
+  .alert-icon {
+    margin-right: 1rem;
+    font-size: 2rem;
+  }
+  .alert-danger {
+    background-color:brown;
+    color:black;
+    margin-top: 2rem;
+  }
+  .alert-warning {
+    background-color:blueviolet;
+    color:black;
+    margin-top: 2rem;
+  }
+  
+  /* mobile  */
+  @media (max-width: 480px) {
+    #alert {
+      height: 90rem;
+    }
+    .alert-sample-cont {
+      border: none;
+    }
+    .alert-primary a {
+      display: none;
+    }
+    .alert-box {
+      margin-right: 2rem;
+      font-size: 1rem;
+      width: 80%;
+    }
+    .alert-icon {
+      font-size: 1.4rem;
+    }
+  }
+  
+  /* tablet */
+  @media (min-width: 481px) and (max-width: 810px) {
+    #alert {
+      height: 100rem;
+    }
+    .alert-sample-cont {
+      border: none;
+    }
+  }
