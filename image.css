@@ -1,0 +1,71 @@
+.image{
+  height: 87rem;
+  width: 100%;
+  padding: 2rem;
+  background-color:transparent;
+  font-family: "Hind", sans-serif;
+}
+.image-heading{
+  font-size: 3rem;
+    color:black;
+}
+.image-para{
+  letter-spacing: 2px;
+    font-size: 1.5rem;
+    padding-right: 2rem;
+    line-height: 35px;
+    color:rgba(85, 85, 238, 0.678) ;
+}
+.sample-image-heading{
+  font-size: 2rem;
+    margin-top: 2rem;
+    color: black;
+}
+.sample-image-para{
+  padding-top: 1rem;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  padding-right: 2rem;
+  color:rgba(85, 85, 238, 0.678) ;
+
+}
+.image-container{
+height:20rem;
+    width: 90%;
+    margin-top: 2rem;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    border: 3px solid rgba(0, 0, 255, 0.308);
+  }
+  .image-cont {
+position: relative;
+
+
+  }
+  .image-large{
+    width: 30rem;
+    height: 17rem;
+  }
+  .image-cont img{
+    height: 100%;
+    width: 100%;
+  }
+  .sample2-image-heading{
+    font-size: 2rem;
+    margin-top: 2rem;
+    color: black;
+  }
+  .image-cont-circular{
+    position: relative;
+  }
+  .image-circular{
+    width: 20rem;
+    height: 10rem;
+  }
+  .image-cont-circular img{
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+  }
