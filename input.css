@@ -1,0 +1,41 @@
+#input{
+    height: 40rem;
+    width: 80%;
+    padding: 2rem;
+    background-color:transparent;
+    font-family: "Hind", sans-serif;
+}
+.input-heading{
+font-size: 3rem;
+    color:black;
+}
+.input-para{
+    letter-spacing: 2px;
+    font-size: 1.5rem;
+    padding-right: 2rem;
+    line-height: 35px;
+    color:rgba(85, 85, 238, 0.678) ;
+}
+
+.sample-component-heading{
+    font-size: 2rem;
+    margin-top: 2rem;
+    color: black;
+}
+
+.input-container{
+    height: 25em;
+    width: 70%;
+    margin-top: 2rem;
+    border-radius: 10px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: 3px solid rgba(0, 0, 255, 0.308);
+
+}
+.input-cont{
+    
+    position: relative;
+}
