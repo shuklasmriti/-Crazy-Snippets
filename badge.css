@@ -1,0 +1,34 @@
+
+
+
+  .badge {
+    display: inline-block;
+    padding: 8px 12px;
+    /* background-color: #007BFF; Default badge color */
+    color: #fff; /* Text color */
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 10px; /* Adjust as needed */
+  }
+  .box{
+    height: 10rem;
+    width: 60%;
+    margin-top: 2rem;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 3px solid rgba(0, 0, 255, 0.308);
+  }
+  
+  /* Additional styles for different badge types */
+  .success {
+    background-color: #28a745;
+  }
+  .New{
+    background-color:red;
+  }
+  .warning {
+    background-color: #ffc107;
+  }
